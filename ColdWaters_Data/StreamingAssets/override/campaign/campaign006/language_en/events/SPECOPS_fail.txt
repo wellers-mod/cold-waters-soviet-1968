@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato insertion 1,campaign/images/nato insertion 2
+Photo=campaign/images/photos/explosions 3,campaign/images/photos/fire 1,campaign/images/photos/smoke 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO SPECIAL FORCES</b>/<b>SABOTEURS AT WORK</b>|<b>UNEXPECTED BLOW></b>|<b>DARING RAID</b>
+Color=57,61,73,255
+Sentence1=Our correspondent, who is in <ENDLOCATION_RO>, reports on the explosions that occurred that night at Soviet military facilities. The scale of the destruction, as well as eyewitness accounts of the shootings of Soviet soldiers with unknown persons, suggests an opinion about the action of the NATO sabotage task force. Representatives of both blocks did not comment on what was happening, so we can only guess what exactly was the goal
+Color=218,218,208,255
+Sentence2=Analysts believe that although special forces operations by themselves will not lead to an immediate turning point in the war, their systematic conduct will put constant pressure on the USSR. In view of the constant threat, the USSR will be forced to strengthen the protection of its facilities and territories by directing part of the resources necessary for the front.

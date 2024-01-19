@@ -1,0 +1,29 @@
+//AI mission
+//USN Norweigen Sea Patrol
+MissionType=AI_PATROL_SSN
+AllowedOnlyFor=
+ForbiddenFor=
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
+HoursToStart=24,48
+StartLocation=USA_NAVAL
+StartAlignment=ENEMY
+EndLocation=WAYPOINT
+EndAlignment=
+Speed=10
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=N1,N2,N3
+ProhibitedWaypoints=NC1,B1,B2
+PatrolForHours=72,156
+StrategicValue=10
+MissionEndsWhen=RETURN_HOME
+MapBehaviour=OFFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=FALSE
+EnemyShipClasses=usn_all_ssn

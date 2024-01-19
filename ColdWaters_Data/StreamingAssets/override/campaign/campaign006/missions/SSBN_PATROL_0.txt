@@ -1,0 +1,24 @@
+//Last mission
+MissionType=SSBN_PATROL
+HoursToStart=12,48
+StartLocation=UK_NAVAL
+StartAlignment=ENEMY
+EndLocation=WAYPOINT
+EndAlignment=
+Speed=10
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=N1,N2
+ProhibitedWaypoints=
+PatrolForHours=48,72
+StrategicValue=20
+MissionEndsWhen=PATROL_END
+MapBehaviour=DEFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-1,0-2
+CombatBehaviour=DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE
+EnemyShipClasses=nato_all_ssbn,nato_new_ssn

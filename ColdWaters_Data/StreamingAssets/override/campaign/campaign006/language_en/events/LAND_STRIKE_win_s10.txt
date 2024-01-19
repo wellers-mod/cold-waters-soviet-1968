@@ -1,0 +1,13 @@
+NextAction=MAP
+Image=campaign/images/nato missile land attack
+Photo=campaign/images/photos/Tlam_result.jpg,campaign/images/photos/fire 1,campaign/images/photos/smoke 1
+Music=audio/music/good.ogg
+Header=<DATE>
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b><ENDLOCATION> UNDER ATTACK!</b>|<b><ENDLOCATION> ON FIRE!</b>|<b>MISSILE STRIKE ON <ENDLOCATION_DA></b>
+Color=57,61,73,255
+Sentence1=Military facilities in <ENDLOCATION_PR>, (<COUNTRY>) suffered significant damage as a result of a powerful missile strike inflicted by the Soviet Navy. The infrastructure of the military base and the port has been significantly destroyed and its restoration will require significant forces and funds.
+Color=218,218,208,255
+Sentence2=Representatives of <COUNTRY> protested, claiming numerous civilian casualties. Denying these accusations, Moscow urges sane citizens around the world not to believe the "vile lies of the Western imperialists."

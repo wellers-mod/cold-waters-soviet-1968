@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/backgrounds/nato_freighter_narvik_1.jpg,campaign/images/backgrounds/nato_freighter_narvik_2.jpg,campaign/images/backgrounds/nato_freighter_narvik_3.jpg,campaign/images/backgrounds/nato_freighter_narvik_4.jpg,campaign/images/backgrounds/nato_freighter_narvik_5.jpg
+Photo=campaign/images/photos/small_freighter_sailing_1.jpg,campaign/images/photos/small_freighter_sailing_2.jpg,campaign/images/photos/small_freighter_pier_1.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SEA ROUTE</b>|<b>WORKHORSES</b>|<b>TIMELY SUPPORT</b>|<b>COASTAL PATH</b>
+Color=57,61,73,255
+Sentence1=Small convoy arrived today to <ENDLOCATION>. The successful arrival raised the morale of the troops, and the delivery of the necessary supplies will strengthen the defense and continue to restrain the onslaught of the Soviets.
+Color=218,218,208,255
+Sentence2=The representative of Norway stressed the importance of coastal transportation: "The use of small transports in coastal waters makes it possible to deliver goods and equipment much cheaper and, most importantly, safer than by land. The Soviet Union does not have the ability to interfere with small convoys near the Norwegian coast."

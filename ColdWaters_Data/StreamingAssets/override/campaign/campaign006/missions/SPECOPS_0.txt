@@ -1,0 +1,31 @@
+//Player mission
+//Occupied SSK
+MissionType=SPECOPS
+AllowedOnlyFor=
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
+HoursToStart=0,24
+StartLocation=NAVAL_BASE
+StartAlignment=ENEMY
+EndLocation=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,SOSUS_NODE
+EndAlignment=FRIENDLY_OCCUPIED
+Speed=8
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=
+ProhibitedWaypoints=B1,N3,A1,A2
+PatrolForHours=6,9
+StrategicValue=30
+MissionEndsWhen=PATROL_END
+MapBehaviour=DEFENSIVE
+DisruptOnFail=TRUE
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=nato_all_ssk
+EventWin=SPECOPS_win
+EventFail=SPECOPS_fail

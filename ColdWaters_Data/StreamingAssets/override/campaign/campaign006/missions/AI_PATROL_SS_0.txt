@@ -1,0 +1,29 @@
+//AI mission
+//KNM Norwegian Coast patrol
+MissionType=AI_PATROL_SS
+AllowedOnlyFor=
+ForbiddenFor=
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
+HoursToStart=12,48
+StartLocation=KNM_BASE
+StartAlignment=ENEMY
+EndLocation=WAYPOINT
+EndAlignment=
+Speed=6
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=NC5,NC2,NC1
+ProhibitedWaypoints=P1,P2
+PatrolForHours=72,156
+StrategicValue=5
+MissionEndsWhen=RETURN_HOME
+MapBehaviour=OFFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=FALSE
+EnemyShipClasses=knm_68_ss_kobben

@@ -1,0 +1,21 @@
+Image=campaign/images/68 pact surface raiders 1
+PlayerVessels=wp_68_ss_whiskey,wp_68_ss_zulu,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssgn_charlie1
+
+[COMMANDER NAMES]
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF
+
+PrestigeMode=TRUE
+//Easy, Normal, Realistic, Elite
+StartingPrestige=200,100,0,0
+LoadoutType=0
+[Prestige Cost]
+wp_68_ss_whiskey		=	0		=	0
+wp_68_ss_zulu           =   50      =   0
+wp_68_ss_romeo			=	100		=	0
+wp_68_ss_foxtrot		=	200		=	0
+wp_68_ssg_juliet		=	200		=	0
+wp_68_ssn_november		=	350		=	0
+wp_68_ssn_victor1		=	650		=	1
+wp_68_ssgn_echo2		=	580		=	1
+wp_68_ssgn_charlie1		=	600 	=	1

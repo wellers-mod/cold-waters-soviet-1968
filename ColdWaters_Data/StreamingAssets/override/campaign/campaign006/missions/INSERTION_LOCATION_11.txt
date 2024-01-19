@@ -1,0 +1,80 @@
+//Bruh, y you lettin' Soviet territory be captured?
+
+UseTerrain=TRUE
+MapCoordinates=3242,830
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+MapCoordinates=3242,830
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Environment
+Date=15 MAR 1984
+Hemisphere=North
+Time=1200
+UsePresetEnvironment=FALSE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=nato_seagoing_ff,nato_seagoing_ff|nato_seagoing_dd,nato_seagoing_aaw_escorts,nato_seagoing_aaw_escorts,civ_trawlers|usn_cargo,usn_landing|usn_cargo,usn_landing|nato_seagoing_aaw_escorts,usn_landing|nato_all_capital_ships,usn_landing|nato_seagoing_ff|nato_seagoing_dd
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-390,150
+PlayerHeading=180
+
+//AI Nav Waypoints
+
+//ASW Escort 1
+EnemyWaypoints=-400,-40|-710,-50
+
+//ASW Escort 2
+EnemyWaypoints=-230,130|-140,330
+
+//AAW Escort 1
+EnemyWaypoints=-130,220|-890,490
+
+//AAW Escort 2
+EnemyWaypoints=-950,230|250,60
+
+//Traffic 1
+EnemyWaypoints=-380,-100|-510,-100|-510,0|-380,0
+
+//Traffic 2
+EnemyWaypoints=-300,120|-420,120|-420,220|-300,220
+
+//Three docked vessels; cannot shoot
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+MissionPosition=-330,-210
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-530,0,150
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-180,-30|-310,-130|-470,-180
+//number across,number deep,length,depth
+ProximityMineField=10,4,100,10|10,4,100,10|10,4,100,10
+ProximityMineFieldAngles=-50,-25,0
+ProximityMineScatter=0.3,0.3,0.3

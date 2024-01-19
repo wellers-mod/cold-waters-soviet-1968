@@ -1,0 +1,16 @@
+NextAction=END
+Image=campaign/images/sea rescue 1,campaign/images/sea rescue 2
+Photo=campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Loss Gulag
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIET SAILORS CAPTURED</b>
+Color=57,61,73,255
+Sentence1=Representatives of the NATO Navy claim that the surviving crew of a Soviet submarine was captured. Although they refuse to disclose the exact location and method of capturing the crew members, the information released by the NATO press service about some details of the operation confirms the correctness of their statement.
+
+Color=218,218,208,255
+Sentence2=Although the Union and NATO have made several attempts to negotiate an exchange of prisoners, they have not been able to come to an agreement. It is likely that most prisoners of war will be able to get home only after the end of the war.

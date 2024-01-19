@@ -1,0 +1,31 @@
+//Player mission
+//Large enemy liberation
+MissionType=LANDING_FORCE
+AllowedOnlyFor=
+ForbiddenFor=FF,FFG,DD,SS,SSG
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=150
+HoursToStart=0,24
+StartLocation=NAVAL_BASE
+StartAlignment=ENEMY
+EndLocation=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,KNM_BASE
+EndAlignment=FRIENDLY_OCCUPIED
+Speed=8
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=
+ProhibitedWaypoints=
+PatrolForHours=8,12
+StrategicValue=30
+MissionEndsWhen=PATROL_END
+MapBehaviour=DEFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=TRUE
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=0-1,1-2,2-3,1-1,3-3
+CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,TRUE
+EnemyShipClasses=nato_all_bb,nato_seagoing_aaw_escorts,nato_seagoing_asw_escorts,usn_68_lph_iwo_jima,usn_landing
+EventWin=LANDING_FORCE_occ_win
+EventFail=LANDING_FORCE_fail

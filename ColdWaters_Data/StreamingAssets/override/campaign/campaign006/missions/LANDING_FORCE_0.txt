@@ -1,0 +1,31 @@
+//Player mission
+//Small enemy liberation
+MissionType=LANDING_FORCE
+AllowedOnlyFor=
+ForbiddenFor=FF,FFG,DD
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
+HoursToStart=0,24
+StartLocation=NAVAL_BASE
+StartAlignment=ENEMY
+EndLocation=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,KNM_BASE
+EndAlignment=FRIENDLY_OCCUPIED
+Speed=8
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=
+ProhibitedWaypoints=
+PatrolForHours=8,12
+StrategicValue=30
+MissionEndsWhen=PATROL_END
+MapBehaviour=DEFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=TRUE
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=0-1,1-2,1-2,1-1
+CombatBehaviour=DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=nato_seagoing_aaw_escorts,nato_seagoing_asw_escorts,usn_landing,usn_cargo
+EventWin=LANDING_FORCE_occ_win
+EventFail=LANDING_FORCE_fail

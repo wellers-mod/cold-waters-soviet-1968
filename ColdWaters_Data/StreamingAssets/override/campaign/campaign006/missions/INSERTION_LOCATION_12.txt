@@ -1,0 +1,56 @@
+//Bruh, y you lettin' Soviet territory be captured?
+
+UseTerrain=TRUE
+MapCoordinates=3172,1066
+MapFromCampaign=North Atlantic
+MapElevationData=oparea_norwegiansea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=nato_seagoing_ff,nato_seagoing_ff|nato_seagoing_dd,nato_seagoing_aaw_escorts,nato_seagoing_aaw_escorts,civ_trawlers,usn_landing|usn_cargo,usn_landing|nato_seagoing_aaw_escorts,usn_landing|nato_all_capital_ships
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-20,226
+PlayerHeading=220
+
+//AI Nav Waypoints
+
+//ASW Escort 1
+EnemyWaypoints=-490,300|-220,270
+//ASW Escort 2
+EnemyWaypoints=-40,10|-240,90
+//AAW Escort 1
+EnemyWaypoints=-430,120|-500,530
+//AAW Escort 2
+EnemyWaypoints=-570,370|380,-40
+//Traffic
+EnemyWaypoints=-150,180|0,180|0,120|-150,120
+
+//Three docked vessels; cannot shoot
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+MissionPosition=-370,150
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=usn_sh-2f
+NumberOfAircraft=1
+AircraftType=usn_p3c_68
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-280,360,150
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-4,81|-92,104|-134,124
+//number across,number deep,length,depth
+ProximityMineField=10,4,100,10|10,4,100,10|10,4,100,10
+ProximityMineFieldAngles=25,5,40
+ProximityMineScatter=0.3,0.3,0.3
