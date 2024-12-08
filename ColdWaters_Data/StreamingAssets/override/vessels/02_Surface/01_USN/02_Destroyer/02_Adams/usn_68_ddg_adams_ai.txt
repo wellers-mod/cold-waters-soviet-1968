@@ -246,6 +246,10 @@ ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 Material=ships/materials/usn_parts
 
 MeshRotation=0,0,0
+MeshPosition=0,0.1,-0.66
+Mesh=usn_cg_belknap_ciws
+
+MeshRotation=0,0,0
 MeshPosition=0,0.14,-0.66
 Mesh=usn_cg_belknap_mk10_mount,usn_cg_belknap_mk10_mount
 MeshRotation=0,180,0
