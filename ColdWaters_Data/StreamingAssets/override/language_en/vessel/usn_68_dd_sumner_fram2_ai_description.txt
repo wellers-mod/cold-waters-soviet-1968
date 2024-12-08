@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Sumner
+Description=FRAM II Sumner-class Destroyer
+Aircraft=2 QH-50 DASH
+History=The Allen M. Sumner class was a group of 58 destroyers built by the United States during World War II. 33 ships were converted under the Fleet Rehabilitation and Modernization II (FRAM II) program 1960–65, but not as extensively as the Gearings.
