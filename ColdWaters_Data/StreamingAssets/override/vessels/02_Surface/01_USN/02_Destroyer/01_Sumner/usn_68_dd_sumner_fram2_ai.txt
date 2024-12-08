@@ -107,6 +107,14 @@ Mesh=usn_parts_davit
 
 [Weapon Systems]
 //Naval Guns
+ModelFile=assets/models/usn_parts_mk45.fbx
+Material=assets/materials/usn_parts_mk45_mod0.mat
+MeshRotation=0,0,0
+MeshScale=1.1,1.1,1.1
+MeshPosition=0,0.10047,0.455
+Mesh=turretring
+MeshScale=1,1,1
+
 ModelFile=assets/models/usn_parts_mk38.fbx
 Material=assets/materials/usn_parts_mk38.mat
 
