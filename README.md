@@ -8,6 +8,7 @@ Requires at least DotMod v0.4a-2.
 ## New Vessels
 #### United States
 * Tang-class SSK
+* Sumner-class DD
 
 ## Installation
 1) Ensure you are starting with a fresh install of Cold Waters and DotMod v0.4a-2.
