@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Tang
-Description=Tang-class Diesel-Electric Submarine (1968)
+Description=Tang-class Diesel-Electric Submarine (Early)
 History=The Tang-class submarines were developed from the Greater Underwater Propulsion Power Program (GUPPY) conversion program for World War II submarines,which incorporated captured German Type XXI U-boat technology into the USN's submarine design. They comprised the state of the art in post-World War II conventionally powered submarine design; some of their features were incorporated into the nuclear-powered submarines that replaced them in the 1950s and beyond.
 
 [Player Ship Instances]
